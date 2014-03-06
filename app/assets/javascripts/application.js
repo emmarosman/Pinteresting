@@ -15,3 +15,11 @@
 //= require bootstrap
 //= require turbolinks
 //= require_tree .
+
+.jumbotron {
+	padding:20px
+	p{
+		font-size:20px
+		font-family:Calibri
+	}
+}
