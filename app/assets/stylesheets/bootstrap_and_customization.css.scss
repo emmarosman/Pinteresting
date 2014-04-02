@@ -1,23 +1,29 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 
-
-$body-bg: #ecf0f1;
-$navbar-inverse-bg: #e67e22;
-$navbar-margin-bottom: 1000px;
-$navbar-inverse-link-color: white;
-$brand-primary: #95a5a6;
-$jumbotron-bg: #bdc3c7;
-$navbar-inverse-link-hover-color: #95a5a6;
-$jumbotron-padding: 40px;
-$jumbotron-color: White; 
-$font-family-serif: Georgia;
+$body-bg:					#ecf0f1;
+$font-family-sans-serif:	"Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$text-color:				#f1c40f;
+$link-color:				white;
+$jumbotron-bg:				white;
+$navbar-default-bg:			#f1c40f;
+$navbar-default-link-color:	white;
+$brand-primary:				#bdc3c7;
 
 @import "bootstrap";
 
-@font-face{
-	font-family: "Cambria";
+.center {
+	text-align:center;
 }
 
-body {
-  padding-top: 10px;
+.vcenter {
+    vertical-align: middle;
 }
 
+.navbar-brand {
+	font-weight:bold;
+}
+
+.spacer {
+    margin-top: 40px; 
+    margin-bottom: 20px;
+}

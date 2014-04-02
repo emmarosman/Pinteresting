@@ -11,10 +11,3 @@
  *= require_self
  *= require_tree .
  */
-
-@font-face {
-  font-family: 'Cambria';
-  font-style:  normal;
-  font-weight: 400;
-  src: url(link-to-proxima-nova-font.woff) format('woff');
-}
