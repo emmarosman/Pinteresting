@@ -3,6 +3,16 @@
 		
 		<h1>jag <span class="glyphicon glyphicon-heart"></span> min vardag</h1>
 
-		<p class="row spacer"><%= link_to "Klicka här", "www.dn.se", class: "btn btn-primary btn-lg" %> om du håller med</p> 
+		<% if user_signed_in?%>
+			# do something
+		<% else %>
+
+		<p class="row spacer"><%= link_to "Klicka här", new_user_registration_path, class: "btn btn-primary btn-lg" %> 
+			 	<p> <%= link_to "Logga in", new_user_session_path, class: "btn btn-lg btn-default" %></p>
+
+		<% end %>
+
+		</p>
 
 	</div>
+ 
