@@ -3,7 +3,7 @@
 $body-bg:					#ecf0f1;
 $font-family-sans-serif:	"Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $text-color:				#f1c40f;
-$link-color:				white;
+$link-color:				#f1c40f;
 $jumbotron-bg:				white;
 $navbar-default-bg:			#f1c40f;
 $navbar-default-link-color:	white;
@@ -21,6 +21,7 @@ $brand-primary:				#bdc3c7;
 
 .navbar-brand {
 	font-weight:bold;
+	font-size: 40px;
 }
 
 .spacer {
