@@ -15,10 +15,22 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
       <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to "Hem", root_path %></li>
+        <li>
+          <%= link_to root_path do %>
+            <span class="glyphicon glyphicon-home"></span> Hem
+          <% end %>
+        </li>
         <li><%= link_to "Om", about_path %></li>
         <% if user_signed_in? %>
-        <li><%= link_to "Account settings", edit_user_registration_path %></li>
+        <li>
+          <%= link_to new_pin_path do %>
+            <span class="glyphicon glyphicon-plus"></span> New Pin
+          <% end %>
+        </li>
+        <li><%= link_to edit_user_registration_path do %>
+            <span class="glyphicon glyphicon-cog"></span> Inställningar
+        <% end %>
+        </li>
         <li><%= link_to "Log out", destroy_user_session_path, method: :delete %></li>
         <% else %>
           <li><%= link_to "Sign_in", new_user_session_path %> </li>
