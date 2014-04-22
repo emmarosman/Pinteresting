@@ -10,7 +10,6 @@
       </button>
       <%= link_to "Min Vardag", root_path, class:"navbar-brand" %>
 
-
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
@@ -31,9 +30,9 @@
             <span class="glyphicon glyphicon-cog"></span> Inställningar
         <% end %>
         </li>
-        <li><%= link_to "Log out", destroy_user_session_path, method: :delete %></li>
+        <li><%= link_to "Logga ut", destroy_user_session_path, method: :delete %></li>
         <% else %>
-          <li><%= link_to "Sign_in", new_user_session_path %> </li>
+          <li><%= link_to "Logga in", new_user_session_path %> </li>
         <% end %>
       </ul>
     </div><!-- /.container-collapse -->

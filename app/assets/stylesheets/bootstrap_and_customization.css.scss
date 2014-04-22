@@ -21,10 +21,14 @@ $brand-primary:				#bdc3c7;
 
 .navbar-brand {
 	font-weight:bold;
-	font-size: 40px;
+	font-size: 30px;
 }
 
 .spacer {
     margin-top: 40px; 
     margin-bottom: 20px;
+}
+
+.navbar{
+  min-height:5px;
 }
